@@ -38,65 +38,37 @@ public class account {
         return hesapno;
     }
 
-    /**
-     * @param hesapno the hesapno to set
-     */
     public void setHesapno(String hesapno) {
         this.hesapno = hesapno;
     }
-
-    /**
-     * @return the bakiye
-     */
+    
     public double getBakiye() {
         return bakiye;
     }
 
-    /**
-     * @param bakiye the bakiye to set
-     */
     public void setBakiye(double bakiye) {
         this.bakiye = bakiye;
     }
-
-    /**
-     * @return the isim
-     */
+    
     public String getIsim() {
         return isim;
     }
 
-    /**
-     * @param isim the isim to set
-     */
     public void setIsim(String isim) {
         this.isim = isim;
     }
 
-    /**
-     * @return the email
-     */
     public String getEmail() {
         return email;
     }
 
-    /**
-     * @param email the email to set
-     */
     public void setEmail(String email) {
         this.email = email;
     }
 
-    /**
-     * @return the telno
-     */
     public String getTelno() {
         return telno;
     }
-
-    /**
-     * @param telno the telno to set
-     */
     public void setTelno(String telno) {
         this.telno = telno;
     }
